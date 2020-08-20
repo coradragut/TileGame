@@ -50,7 +50,7 @@ public class KeyManager implements KeyListener {
 	public void keyPressed(KeyEvent e) {
 		if(e.getKeyCode() < 0 || e.getKeyCode() >= keys.length) {return;}
 		keys[e.getKeyCode()] = true;
-		System.out.println("Pressed!");
+		//System.out.println("Pressed!");
 	}
 
 	@Override
